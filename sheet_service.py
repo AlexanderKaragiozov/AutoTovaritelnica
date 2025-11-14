@@ -1,6 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from gspread_formatting import CellFormat, Color, format_cell_ranges
+import os
 CODE_DICT = {
     -14: "ПЛАТЕНА",
     115: "ПРЕНАСОЧЕНА",
@@ -26,7 +27,8 @@ class SheetService:
             'https://spreadsheets.google.com/feeds',
             'https://www.googleapis.com/auth/drive'
         ]
-        credentials = ServiceAccountCredentials.from_json_keyfile_name('key/key.json', scope)
+        keypath = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+        credentials = ServiceAccountCredentials.from_json_keyfile_name(keypath, scope)
         client = gspread.authorize(credentials)
         sheet = client.open(self.sheet_name)
         self.worksheet = sheet.get_worksheet(0)
