@@ -1,0 +1,375 @@
+{
+  "shipments": [
+    {
+      "id": "63299527094", //22 pratena 23 ofis 28platena
+      "sender": {
+        "clientId": 208347357000,
+        "clientName": "АМОРФАТИ ЕООД",
+        "contactName": "РАДОСТИН КОВАЧЕВ",
+        "address": {
+          "countryId": 100,
+          "siteId": 68134,
+          "siteType": "гр.",
+          "siteName": "СОФИЯ",
+          "postCode": "1000",
+          "streetId": 5080,
+          "streetType": "ул.",
+          "streetName": "ПРОФ. ХРИСТО ДАНОВ",
+          "streetNo": "19",
+          "complexId": 327,
+          "complexType": "жк",
+          "complexName": "СТУДЕНТСКИ ГРАД",
+          "x": 23.344359,
+          "y": 42.656085,
+          "fullAddressString": "gr. SOFIA zhk STUDENTSKI GRAD ul. PROF. HRISTO DANOV Nr 19",
+          "siteAddressString": "gr. SOFIA",
+          "localAddressString": "zhk STUDENTSKI GRAD ul. PROF. HRISTO DANOV Nr 19"
+        },
+        "email": "fixlife.eu@gmail.com",
+        "privatePerson": false,
+        "phones": [
+          {
+            "number": "0882015245"
+          }
+        ],
+        "dropoffOfficeId": 345,
+        "dropoffGeoPUDOId": "BG00345"
+      },
+      "recipient": {
+        "clientName": "СИЛВИЯ",
+        "address": {
+          "countryId": 100,
+          "siteId": 68850,
+          "siteType": "гр.",
+          "siteName": "СТАРА ЗАГОРА",
+          "postCode": "6000",
+          "streetId": 18116,
+          "streetType": "ул.",
+          "streetName": "ГРАФ НИКОЛАЙ ИГНАТИЕВ",
+          "streetNo": "30",
+          "x": 25.635393,
+          "y": 42.428284,
+          "fullAddressString": "gr. STARA ZAGORA ul. GRAF NIKOLAY IGNATIEV Nr 30",
+          "siteAddressString": "gr. STARA ZAGORA",
+          "localAddressString": "ul. GRAF NIKOLAY IGNATIEV Nr 30"
+        },
+        "email": "silviyavasileva86@yahoo.com",
+        "privatePerson": true,
+        "phones": [
+          {
+            "number": "0898245111"
+          }
+        ],
+        "pickupOfficeId": 164,
+        "pickupGeoPUDOId": "BG00164"
+      },
+      "service": {
+        "pickupDate": "2025-10-22",
+        "serviceId": 505,
+        "additionalServices": {
+          "cod": {
+            "amount": 28,
+            "currencyCode": "BGN",
+            "payoutToThirdParty": false,
+            "processingType": "CASH",
+            "includeShippingPrice": false,
+            "fiscalReceiptItems": [
+              {
+                "description": "1 x Светулкови истории за лека нощ",
+                "vatGroup": "Б",
+                "amount": 23.33,
+                "amountWithVat": 28
+              }
+            ]
+          },
+          "returns": {},
+          "obpd": {
+            "option": "OPEN",
+            "returnShipmentServiceId": 505,
+            "returnShipmentPayer": "SENDER"
+          }
+        },
+        "deferredDays": 0,
+        "saturdayDelivery": false,
+        "autoAdjustPickupDate": false
+      },
+      "content": {
+        "parcelsCount": 1,
+        "declaredWeight": 0.45,
+        "measuredWeight": 0.45,
+        "calculationWeight": 0.45,
+        "contents": " СВЕТУЛКОВИ ИСТОРИИ ЗА ЛЕКА НОЩ, БОНУС 1: СВЕТУЛКОВА КНИЖКА ЗА ОЦВЕТЯВАНЕ, БОНУС 2: КОМПЛЕКТ – ...",
+        "documents": false,
+        "palletized": false,
+        "parcels": [
+          {
+            "id": "63299527094",
+            "seqNo": 1,
+            "packageUniqueNumber": 90025619720,
+            "declaredSize": {
+              "width": 0,
+              "height": 0,
+              "depth": 0
+            },
+            "measuredSize": {
+              "width": 23,
+              "height": 3,
+              "depth": 27
+            },
+            "calculationSize": {
+              "width": 23,
+              "height": 3,
+              "depth": 27
+            },
+            "declaredWeight": 0.6,
+            "measuredWeight": 0.45,
+            "calculationWeight": 0.45,
+            "externalCarrierParcelNumbers": []
+          }
+        ],
+        "pendingParcels": false,
+        "package": "ПЛИК"
+      },
+      "payment": {
+        "courierServicePayer": "RECIPIENT",
+        "codPayment": {
+          "date": "2025-10-28T16:43:50+0200",
+          "totalPayedOutAmount": 28
+        }
+      },
+      "ref1": "Order Num: 7242",
+      "price": {
+        "amount": 4.64,
+        "vat": 0.93,
+        "total": 5.57,
+        "currency": "BGN",
+        "details": {
+          "netAmount": {
+            "amount": 3.52,
+            "vatPercent": 0.2
+          },
+          "addressPickupSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "addressDeliverySurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "fixedDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "dropOffDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0
+          },
+          "pickUpDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0
+          },
+          "additionalDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "fuelSurcharge": {
+            "amount": 0.42,
+            "percent": 12,
+            "vatPercent": 0.2
+          },
+          "nonStandardDeliveryDateSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "administrativeFee": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "loadUnload": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "islandSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "optionsBeforePaymentSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "codPremium": {
+            "amount": 0.5,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "heavyParcelSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "manualHandlingFee": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "addressNormalizationSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "tollSurcharge": {
+            "amount": 0.2,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "additionalPayZoneSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "insurancePremium": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "voucherDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          }
+        },
+        "amountLocal": 4.64,
+        "vatLocal": 0.93,
+        "totalLocal": 5.57,
+        "currencyLocal": "BGN",
+        "detailsLocal": {
+          "netAmount": {
+            "amount": 3.52,
+            "vatPercent": 0.2
+          },
+          "addressPickupSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "addressDeliverySurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "fixedDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "dropOffDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0
+          },
+          "pickUpDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0
+          },
+          "additionalDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "fuelSurcharge": {
+            "amount": 0.42,
+            "percent": 12,
+            "vatPercent": 0.2
+          },
+          "nonStandardDeliveryDateSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "administrativeFee": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "loadUnload": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "islandSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "optionsBeforePaymentSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "codPremium": {
+            "amount": 0.5,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "heavyParcelSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "manualHandlingFee": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "addressNormalizationSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "tollSurcharge": {
+            "amount": 0.2,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "additionalPayZoneSurcharge": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "insurancePremium": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          },
+          "voucherDiscount": {
+            "amount": 0,
+            "percent": 0,
+            "vatPercent": 0.2
+          }
+        },
+        "currencyExchangeRateUnit": 1,
+        "currencyExchangeRate": 1
+      },
+      "delivery": {
+        "deadline": "2025-10-23T19:00:00+0300",
+        "deliveryDateTime": "2025-10-28T09:02:49+0200",
+        "consignee": "СИЛВИЯ НИКОЛАЕВА ВАСИЛЕВА",
+        "deliveryNote": "251028090235504178"
+      },
+      "primaryShipment": {},
+      "pendingShipment": false
+    }
+  ]
+}

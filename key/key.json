@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mini-map-465419",
+  "private_key_id": "777dd199d850267d5cb01197d75febe9eeaf0491",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpPJeAky9Owmzm\nOyhpiyjsLKlD0PJFk8grHS4WbaQVMms64ZPeDvda01hpsZnacogNaC07ZftxTsBW\nAnVqw8vB7OsXqr+ckXrVVLOyWEm3IwvpkN4HhnjdeW/RcOrJEqhXwPfQfsQq9vBY\nMcmEyk8YvoDJhwuZk5u+JGwujPc0Lf1BK7uSktavzVJIOUbGqynlMoyUTkf58wti\n3LL/Vt3xumGZvatmGM9+JQndFNLUp1i6o9oCqs+i+UuqeSgg9ny+z6TJVbFwj/+e\nGrFW/86HHvgIC/nY+lv51vZIE9IWu0wvFzOKBxbKf/WdLOxUZPs9PnW6Wn231+Ws\nfrGZMqITAgMBAAECggEAMS8VXr4n3Q1fRcgCli3l3kGajcV/a54n6fPIjacerTRi\nepHNfhc+ZwyOIOWHL7fid3cD0kPwv/zho/2B713o7Tq0FkQ+/LtBBhfgQ6AqCEns\nr9w00t4PaVpeF3HoIjjEaQCBZPw6ebwbnJ4XkXqUYz4WQrt3MRJ3jFqcgCjivSx4\n7/bYDcSDpSkkbXdkO/h5Tmqb+wI+fvSZ0DjVPw0LT2BFc8SNPH9/Trk9pjljeMJD\ndorW+VGNs25L/TSt7+MWCiPfrp4Emerb2EH6+SlPPug+YDl3UrUQzJ2FgSsjlg60\nNkswGgD8vUIaws8vAS/pj3mky4uAlBX51JH6nQo7oQKBgQDkb1OdtUhAwOrdQ2Ab\nTPaHA20Klgr1M2W2ZlYb67M+nDKRCus57i4Q7VCErspRlYbPEqkt7og71uW9BCX7\nFhwRavuFEP+50k+sDCtHuFZWfQqDA4HuAqHs79awiRzkOBLajjqzAYhZGWm86dpl\nf9Mtd1z4idNsiCctmwQWWfzXIQKBgQC9qIzhsEHPXQBJqgm9/RRuiBGeHdGl1kUQ\nX6LbRt8c+swhOp9GKxKlX+6R+F9vryjeNvww1oI4w05qX3ujNMnEYFmRAzmmu3xL\ntKREy/y8YEvGjMwgkvfgAaggSmdzuVQ6GsAfjijAEUVs3z9jthf62SHK+AgvNjqA\nbfRBrV92swKBgQCpLEU5e6LJydVmDdqj/UhpzsC3YU02MF04Suuke9bgHF9aiUKR\nQXI+OPIzgRr2do1C16gRCyE7Z7f2VpcmL0aUI62n62HnpPg6Cz0WPU87eBkL09Iq\niSqQRUKytKh/34Me9sxD+3OVwLtNG8cQ+ixT9J0Wt0Orkd2p6a6KOxSD4QKBgAQU\nlkNcyW2usIzlLaR6x2/BWa+vMI2C2KWLiTNyiOZUtwOYAUk/L/2C3N0jHNqISDbP\ntAlQ9ChIe21qdHyEbDrfX83w5dKiggAW+NnKEbvzzm2NJe8lelPFdVqMf0FMIXXG\nkY+cPWA0fuviubhpeIabGVEGmRZ68jNFKlYnZsBlAoGAEaFqfqSivIFJj5eau5sB\n1lfdwceNHSY3JxfRFd3xcIHsj+WELmpBODN1hvIgkWG5+VlAx7pAEy0Ihs9Y9vJK\n9HXDQEHrJCAevnugTpU9NjCOzR8RkEqGorG2b+Fa1SXfXUoqVRhrWGESTeGOLWcu\nbaxJlLNPqNq3mzi/JZ3oggw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "speedyautomation@mini-map-465419.iam.gserviceaccount.com",
+  "client_id": "112247594396461253375",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speedyautomation%40mini-map-465419.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

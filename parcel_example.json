@@ -1,0 +1,88 @@
+{
+   "parcels":[
+      {
+         "parcelId":"63325807065",
+         "externalCarrierParcelNumbers":[
+            
+         ],
+         "operations":[
+            {
+               "dateTime":"2025-11-08T12:46:33+0200",
+               "operationCode":148,
+               "description":"Shipment data received",
+               "comment":"Expected Delivery Date: 10.11.2025",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  
+               }
+            },
+            {
+               "dateTime":"2025-11-08T13:14:19+0200",
+               "operationCode":39,
+               "place":"GR. KAZANLAK",
+               "description":"Courier Pick-up",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  
+               }
+            },
+            {
+               "dateTime":"2025-11-09T19:17:03+0200",
+               "operationCode":11,
+               "place":"GR. STARA ZAGORA",
+               "description":"Received in Office",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  
+               }
+            },
+            {
+               "dateTime":"2025-11-09T23:20:48+0200",
+               "operationCode":1,
+               "place":"GR. VELIKO TARNOVO",
+               "description":"Arrival Scan",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  
+               }
+            },
+            {
+               "dateTime":"2025-11-10T08:37:39+0200",
+               "operationCode":134,
+               "place":"GR. ELENA",
+               "description":"Prepared for Self-collecting Consignee",
+               "comment":"451 - ELENA\r\nul. 3-TI MART Nr 9",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  "officeURL":"https://services.speedy.bg/officesmap_v2/?lang=en&id=451",
+                  "geoPUDOId":"BG00451"
+               }
+            },
+            {
+               "dateTime":"2025-11-10T08:43:47+0200",
+               "operationCode":1134,
+               "description":"Office/Locker ready for pickup message sent",
+               "exceptionCodes":[
+                  
+               ],
+               "additionalInfo":{
+                  
+               }
+            }
+         ],
+         "externalCarrierParcelNumbersDetails":{
+            
+         }
+      }
+   ]
+}
