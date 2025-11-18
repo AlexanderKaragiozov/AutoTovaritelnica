@@ -92,6 +92,7 @@ class Processor:
 
     def run(self):
         self.worksheet = self.sheet_service._connect()
+        print
         # self.tovaritelnici = self.sheet_service.get_all_tovaritelnici('Товарителница')
         data = self.sheet_service.get_only_needed_orders()
         self.process_all_tovaritelnici(data)

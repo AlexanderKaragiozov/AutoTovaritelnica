@@ -27,7 +27,7 @@ class SheetService:
             'https://spreadsheets.google.com/feeds',
             'https://www.googleapis.com/auth/drive'
         ]
-        keypath = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+        keypath = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS') #or 'key/key.json'
         credentials = ServiceAccountCredentials.from_json_keyfile_name(keypath, scope)
         client = gspread.authorize(credentials)
         sheet = client.open(self.sheet_name)

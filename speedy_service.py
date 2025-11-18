@@ -24,19 +24,23 @@ class SpeedyService:
     
     def track(self, shipment_id):
         url = f"{self.BASE_URL}/track"
-        paylaod = {
+        payload = {
             "userName": self.username,
             "password": self.password,
             'language': self.language,
-            'parcels': [
-                {
-                    'id': shipment_id
-                }
-            ]
+            'parcels': [{'id': shipment_id}]
         }
-        
-        response = requests.post(url, json=paylaod, headers={"Content-Type": "application/json"})
-        return response.json()
+
+        response = requests.post(url, json=payload)
+
+        print("STATUS CODE:", response.status_code)
+        print("RESPONSE TEXT:", response.text[:500])  # first 500 chars
+
+        try:
+            return response.json()
+        except Exception:
+            return {"error": "Non-JSON response", "body": response.text}
+
 
 
     def is_paid(self, shipment_id):
